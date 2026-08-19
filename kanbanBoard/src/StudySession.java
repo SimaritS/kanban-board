@@ -2,12 +2,6 @@ public class StudySession extends Task{
     private int hours;
     private String subject;
 
-    public StudySession(String title, String description, String status, int hours, String subject){
-        super(title, description, status);
-        this.hours = hours;
-        this.subject = subject;
-    }
-
     public StudySession(String title, String description, int hours, String subject){
         super(title, description);
         this.hours = hours;

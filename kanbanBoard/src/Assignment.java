@@ -1,6 +1,7 @@
 public class Assignment extends Task{
     private Date dueDate;
     private double points;
+    private String text;
 
     public Assignment(String title, String description, String status, int m, int d, int y, double points){
         super(title, description, status);
@@ -20,6 +21,11 @@ public class Assignment extends Task{
         this.points = points;
     }
 
+    public Assignment(String title, String desc, String text, double points) {
+        super(title, desc);
+        this.text = text;
+    }
+
     public Date getDueDate(){
         return dueDate;
     }
@@ -36,6 +42,14 @@ public class Assignment extends Task{
 
     public void setPoints(double p){
         this.points = p;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
     }
 
     @Override

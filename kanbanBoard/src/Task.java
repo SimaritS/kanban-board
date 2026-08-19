@@ -44,4 +44,7 @@ public class Task {
         System.out.printf("Title: %s\nDescription: %s\nStatus: %s\n",title, description, status);
     }
 
+    public String getDetails() {
+       return "Title: " + title + "\nDescription: "+ description + "\nStatus: " + status;
+    }
 }

@@ -1,4 +1,4 @@
-# Data Structures Final Project: Kanban Board
+# Kanban Board: Data Structures Final Project
 
 This is my final project for my Data Structures course. The objective of the project was to create an application that met a specific set of criteria. 
 
